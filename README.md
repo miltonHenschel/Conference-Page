@@ -30,9 +30,9 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 Capstone Project 1: Conference Page <a name="about-project"></a>
+# 📖 Conference Page <a name="about-project"></a>
 
-**Conference Page** is an online website for a conference.
+**First Capstone Project: Conference Page** is an online website for a conference event.
 
 ## 🛠 Built With <a name="built-with"></a>
 
