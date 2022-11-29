@@ -25,8 +25,13 @@ body {
 
 nav#mobile-menu {
   width: 5vw;
-  margin: 1rem 1rem 0;
-  position: relative;
+  position: fixed;
+  top: 2rem;
+  left: 1rem;
+}
+
+img#close-btn {
+  display: none;
 }
 
 img {
@@ -41,10 +46,14 @@ nav#nav-bar ul {
   flex-direction: column;
   list-style-type: none;
   gap: 1rem;
-  width: fit-content;
-  margin-block-start: 0;
   padding-inline-start: 0;
   display: none;
+  font-size: 1.5rem;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 5rem;
+  left: 1rem;
 }
 
 a,
@@ -58,24 +67,22 @@ a:focus {
 
 nav#nav-bar div {
   width: fit-content;
-  display: flex;
   flex-direction: column;
   gap: 1rem;
+  display: none;
 }
 
 nav#nav-bar {
-  width: 100%;
-  display: none;
+  width: 100vw;
+  height: auto;
 }
 
 header#header {
   display: flex;
   flex-direction: column;
   background-repeat: no-repeat;
-  background-color: #d3d3d3;
   background-image: url("../images/others/background.jpg");
   background-size: cover;
-  position: relative;
   width: 100%;
 }
 
@@ -102,10 +109,7 @@ article#intro {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 4rem 1rem;
-
-  /* backdrop-filter: blur(0px); */
-  position: relative;
-  color: var(--black);
+  height: auto;
 }
 
 .flex-speakers p {
@@ -310,4 +314,12 @@ button#more-speakers {
   width: 90%;
   padding: 1rem;
   margin-bottom: 2rem;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
