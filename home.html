@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-   <link>
+<head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Home | Conference Page</title>
-   <link src="css/reset.css"></link>
-   <link src="css/mobile.css"></link>
-   <link src="css/desktop.css"></link>
+   <link rel="stylesheet" href="css/mobile.css">
+   <link rel="stylesheet" href="css/desktop.css">
 </head>
 <body>
    <header id="header">
+      <nav id="mobile-menu" aria-label="mobile menu">
+         <img src="./images/nav/mobile_menu.png" alt="hamburger icon">
+      </nav>
+
       <nav id="social-media" aria-label="social media icons">
          <ul>
-            <li><a href="#"><img src="" alt="facebook icon" /></a></li>
-            <li><a href="#"><img src="" alt="twitter icon" /></a></li>
+            <li><a href="#"><img src="./images/social media/facebook.png" alt="facebook icon"></a></li>
+            <li><a href="#"><img src="./images/social media/twitter.png" alt="twitter icon"></a></li>
             <li><a href="#"></a>English</li>
-            <li><a href="#">My Page</a></li>
+            <li><a href="https://github.com/miltonHenschel/">My Page</a></li>
             <li><a href="#">Logout</a></li>
          </ul>
       </nav>
 
       <nav id="nav-bar" aria-label="nav bar">
-         <div><img src="" alt="logo" /></div>
+         <div><img src="./images/logo/logo.png" alt="cc logo"></div>
+
          <ul>
-            <li><a href="/html/about.html">About</a></li>
+            <li><a href="./html/about.html">About</a></li>
             <li><a href="#">Program</a></li>
             <li><a href="#">Join</a></li>
             <li><a href="#">Sponsor</a></li>
@@ -31,147 +35,159 @@
          </ul>
       </nav>
 
-      <nav id="mobile-menu" aria-label="mobile menu"></nav>
+      <article id="intro">
+         <h1>"Hello, Sharing World!"</h1>
+
+         <h2>CREATIVE COMMONS GLOBAL SUMMIT 2022</h2>
+
+         <h3>A joyful festival where people from over 80 countries who create positive change gather and share their thoughts will be held in Korea in October.</h3>
+
+         <h4>20022.10.14 (Wed) ~ 17 (Sat)</h4>
+
+         <p>@National Museum of Korea, Art Center Navi, etc.</p>
+      </article>
    </header>
 
    <main id="main">
       <article id="main-program">
-         <h1></h1>
-         <h2></h2>
-         <p></p>
-         <p></p>
-      </article>
+         <h2>Main Programs</h2>
 
-      <article>
-         <h2>Main Program</h2>
-         <div><img src="" alt="red line" /></div>
-         <section>
-            <div>
-               <div><img src="" alt="" /></div>
+         <div class="red-line"><img src="./images/main-program/red-line.jpg" alt="red line"></div>
+
+         <section class="main-program-section">
+            <div class="main-program-div">
+               <div class="main-program-img"><img src="./images/main-program/conference.png" alt="conference icon"></div>
                <h3>Lecture</h3>
-               <p></p>
+               <p>Listen to speakers from around the world and learn about the latest world trends.</p>
             </div>
 
-            <div>
-               <div><img src="" alt="" /></div>
+            <div class="main-program-div">
+               <div class="main-program-img"><img src="./images/main-program/cc-exhibition.png" alt="cc exhibition icon"></div>
                <h3>CC Exhibition</h3>
-               <p></p>
+               <p>He developed SDN, the first Internet protocol network in Asia, and led Korea's first dedicated line Internet connection in 1990, opening the Internet era in earnest.</p>
             </div>
 
-            <div>
-               <div><img src="" alt="" /></div>
+            <div class="main-program-div">
+               <div class="main-program-img"><img src="./images/main-program/forum.png" alt="forum icon"></div>
                <h3>Forum</h3>
-               <p></p>
+               <p>Take the time to share your thoughts and opinions with experts on each topic covered.</p>
             </div>
 
-            <div>
-               <div><img src="" alt="" /></div>
+            <div class="main-program-div">
+               <div class="main-program-img"><img src="./images/main-program/workshop.png" alt="workshop icon"></div>
                <h3>Workshop</h3>
-               <p></p>
+               <p>You can not only view creations using open source, but also create them yourself.</p>
             </div>
 
-            <div>
-               <div><img src="" alt="" /></div>
+            <div class="main-program-div">
+               <div class="main-program-img"><img src="./images/main-program/cc-party.png" alt="cc party icon"></div>
                <h3>CC Ignite</h3>
-               <p></p>
+               <p>Create opportunities to freely network with CC personalities from around the world.</p>
             </div>
          </section>
-         <a href="#">SEE THE WHOLE PROGRAM</a>
-         <button>Join CC Global Summit 2022</button>
+
+         <a id="more-program-desktop" href="#">SEE THE WHOLE PROGRAM</a>
+
+         <button id="more-program-mobile">Join CC Global Summit 2022</button>
       </article>
 
       <article id="featured-speakers">
-         <h2></h2>
-         <section>
-            <div>
-               <div><img src="" alt="" /></div>
-               <div>
-                  <h3></h3>
-                  <p></p>
-                  <div><img src="" alt="" /></div>
-                  <p></p>
+         <h2>Featured Speakers</h2>
+
+         <div class="red-line"><img src="./images/main-program/red-line.jpg" alt="red line"></div>
+
+         <section class="speaker-section">
+            <div class="speaker-section-div">
+               <div class="speaker-img"><img src="./images/speakers/speaker_01.png" alt="speaker 1"></div>
+               <div class="speaker-details">
+                  <h3>Yohai Benkler</h3>
+                  <h4>Professor, Harvard Law School</h4>
+                  <div class="red-line"><img src="./images/main-program/red-line.jpg" alt="red line"></div>
+                  <p>Focusing on a common approach in a networked environment, we created the concept of co-production based on open source software and sharing, such as Wikipedia.</p>
                </div>
             </div>
 
-            <div>
-               <div><img src="" alt="" /></div>
-               <div>
-                  <h3></h3>
-                  <p></p>
-                  <div><img src="" alt="" /></div>
-                  <p></p>
+            <div class="speaker-section-div">
+               <div class="speaker-img"><img src="./images/speakers/speaker_02.png" alt="speaker 2"></div>
+               <div class="speaker-details">
+                  <h3>Jeon Gilnam</h3>
+                  <h4>Professor Emeritus, Korea Advanced Institute of Science and Technology (KAIST)</h4>
+                  <div class="red-line"><img src="./images/main-program/red-line.jpg" alt="red line"></div>
+                  <p>He developed SDN, the first Internet protocol network in Asia, and led Korea's first dedicated line Internet connection in 1990, opening the Internet era in earnest.</p>
                </div>
             </div>
 
-            <div>
-               <div><img src="" alt="" /></div>
-               <div>
-                  <h3></h3>
-                  <p></p>
-                  <div><img src="" alt="" /></div>
-                  <p></p>
+            <div class="speaker-section-div">
+               <div class="speaker-img"><img src="./images/speakers/speaker_03.png" alt="speaker 3"></div>
+               <div class="speaker-details">
+                  <h3>Soyoung Roh</h3>
+                  <h4>Art Center Butterfly Director, CC Korea</h4>
+                  <div class="red-line"><img src="./images/main-program/red-line.jpg" alt="red line"></div>
+                  <p>She opened 'Art Center Nabi', Korea's first digital art specialized institution, and has been in office ever since.</p>
                </div>
             </div>
 
-            <div>
-               <div><img src="" alt="" /></div>
-               <div>
-                  <h3></h3>
-                  <p></p>
-                  <div><img src="" alt="" /></div>
-                  <p></p>
+            <div class="speaker-section-div">
+               <div class="speaker-img"><img src="./images/speakers/speaker_04.png" alt="speaker 4"></div>
+               <div class="speaker-details">
+                  <h3>Julia Reda</h3>
+                  <h4>Representative of the Young Pirates of Europe</h4>
+                  <div class="red-line"><img src="./images/main-program/red-line.jpg" alt="red line"></div>
+                  <p>European integration and youth participation in politics and democracy through online are key concerns, according to a report that could potentially impact changes to the European Union's copyright laws in July.</p>
                </div>
             </div>
 
-            <div>
-               <div><img src="" alt="" /></div>
-               <div>
-                  <h3></h3>
-                  <p></p>
-                  <div><img src="" alt="" /></div>
-                  <p></p>
+            <div class="speaker-section-div">
+               <div class="speaker-img"><img src="./images/speakers/speaker_05.png" alt="speaker 5"></div>
+               <div class="speaker-details">
+                  <h3>Laila Tretikov</h3>
+                  <h4>Wikimedia Foundation Executive Director</h4>
+                  <div class="red-line"><img src="./images/main-program/red-line.jpg" alt="red line"></div>
+                  <p>Laila Tretikow is executive director of the Wikimedia Foundation, the nonprofit that runs Wikipedia. Wikipedia is available for free every month in 290 languages to more than 100 million people, nearly half of the world's population.</p>
                </div>
             </div>
 
-            <div>
-               <div><img src="" alt="" /></div>
-               <div>
-                  <h3></h3>
-                  <p></p>
-                  <div><img src="" alt="" /></div>
-                  <p></p>
+            <div class="speaker-section-div">
+               <div class="speaker-img"><img src="./images/speakers/speaker_05.png" alt="speaker 5"></div>
+               <div class="speaker-details">
+                  <h3>Ryan Merkley</h3>
+                  <h4>CEO of Creative Commons, former COO of the Mozilla Foundation</h4>
+                  <div class="red-line"><img src="./images/main-program/red-line.jpg" alt="red line"></div>
+                  <p>He led open source projects at the Mozilla Foundation and joined CC as CEO in 2014. Open government, open source, and other open movements have been actively carried out.</p>
                </div>
             </div>
-
-            <button>MORE <div><img src="" alt="down icon" /></div></button>
          </section>
+
+         <button id="more-speakers">MORE&nbsp;&nbsp;<img src="./images/nav/arrow_down.png" alt="down icon"></button>
       </article>
    </main>
 
    <footer id="footer">
       <section id="partner">
          <h3>Partner</h3>
-         <div><img src="" alt="red line" /></div>
+         <div><img src="./images/main-program/red-line.jpg" alt="red line"></div>
          <ul>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
+            <li><img src="./images/logo/mozilla-logo.png" alt="mozilla icon"></li>
+            <li><img src="./images/logo/google-logo.png" alt="google icon"></li>
+            <li><img src="./images/logo/naver.png" alt="naver icon"></li>
+            <li><img src="./images/logo/microsoft.png" alt="microsoft icon"></li>
+            <li><img src="./images/logo/airbnb_logo.png" alt="airbnb icon"></li>
          </ul>
       </section>
 
-      <section>
-         <div><img src="" alt=logo" /></div>
+      <section id="all-rights">
+         <div><img src="./images/logo/logo3.png" alt="cc korea icon"></div>
          <div>
             <div>
-               <p></p>
-               <p></p>
+               <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+               <p>All content on the website unless otherwise specified is licensed under a Creative Commons Attribution 2.0 United States License.
+For details of the functions and conditions of permission http://creativecommons.org/licences/by/2.0/kr</p>
             </div>
          </div>
       </section>
    </footer>
 
-   <script src="js/script.js"></script>
+   <script src=".js/script.js"></script>
+
 </body>
 </html>
