@@ -1,6 +1,7 @@
 @media only screen and (min-width: 768px) {
   section.past-program-detail {
     flex-direction: row;
+    justify-content: center;
   }
 
   div#all-rights-detail {
@@ -8,7 +9,9 @@
   }
 
   div#all-rights-logo-mobile {
-    display: block;
+    width: 50%;
+    display: flex;
+    justify-content: center;
   }
 
   div#all-rights-logo-desktop {
@@ -22,5 +25,10 @@
   section#all-rights {
     background-color: var(--black);
     color: var(--white);
+  }
+
+  article.past-program {
+    padding: 2rem 10rem;
+    margin: auto;
   }
 }
