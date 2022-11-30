@@ -94,11 +94,12 @@
   }
 
   article#featured-speakers {
-    padding: 0 5rem;
+    padding: 0 5rem 2rem;
   }
 
   article#featured-speakers .red-line {
     width: 2.5vw;
+    padding-top: 1rem;
   }
 
   button#more-speakers {
@@ -175,7 +176,6 @@
     display: grid;
     grid-template-columns: 30% auto;
     gap: 1rem;
-    padding-bottom: 2rem;
   }
 
   div#all-rights-logo { width: 50%; }

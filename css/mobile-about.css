@@ -10,6 +10,10 @@ article.past-program {
   border-bottom: 1px solid var(--white);
 }
 
+article#featured-speakers {
+  display: none;
+}
+
 section.past-program-intro {
   display: flex;
   flex-direction: column;

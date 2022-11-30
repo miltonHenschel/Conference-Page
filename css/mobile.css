@@ -60,12 +60,8 @@ nav#nav-bar ul {
 }
 
 a,
-a:link,
-a:active,
-a:hover,
-a:visited,
-a:focus {
-  text-decoration: none;
+button {
+  all: unset;
 }
 
 nav#nav-bar-div {
@@ -197,7 +193,6 @@ article#featured-speakers {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
 }
 
 footer#footer {
@@ -308,7 +303,6 @@ button#more-program-mobile {
   display: grid;
   grid-template-columns: 30% auto;
   gap: 1rem;
-  padding-bottom: 2rem;
 }
 
 .speaker-img {
@@ -318,17 +312,27 @@ button#more-program-mobile {
 
 .speaker-details {
   font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 section.speaker-section {
-  padding: 2rem 1rem 0;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 button#more-speakers {
   border: 1px solid #00000024;
-  width: 90%;
+  width: 75%;
   padding: 1rem;
   margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .hide {
