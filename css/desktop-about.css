@@ -1,0 +1,26 @@
+@media only screen and (min-width: 768px) {
+  section.past-program-detail {
+    flex-direction: row;
+  }
+
+  div#all-rights-detail {
+    display: block;
+  }
+
+  div#all-rights-logo-mobile {
+    display: block;
+  }
+
+  div#all-rights-logo-desktop {
+    display: none;
+  }
+
+  section#partner {
+    display: none;
+  }
+
+  section#all-rights {
+    background-color: var(--black);
+    color: var(--white);
+  }
+}

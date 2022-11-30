@@ -5,7 +5,7 @@ article.center-text {
 article.past-program {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   padding: 2rem;
   border-bottom: 1px solid var(--white);
 }
@@ -37,6 +37,8 @@ footer#footer {
 div#past-program-logo {
   border: 1px solid var(--white);
   padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
 }
 
 section#partner {
@@ -72,6 +74,10 @@ section#all-rights {
 }
 
 div#all-rights-detail {
+  display: none;
+}
+
+div#all-rights-logo-mobile {
   display: none;
 }
 
