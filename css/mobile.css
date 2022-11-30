@@ -90,6 +90,10 @@ div#logo {
   display: none;
 }
 
+article.center-text {
+  text-align: center;
+}
+
 article#intro h1 {
   color: #ec5242;
   margin-bottom: 0;
@@ -145,7 +149,7 @@ article#intro h3 {
 }
 
 article#intro p {
-  font-weight: 600;
+  font-weight: 300;
   font-size: 1rem;
 }
 

@@ -6,6 +6,7 @@ const main = document.getElementById('main');
 const intro = document.getElementById('intro');
 const navBarBlock = document.getElementById('nav-bar');
 const navBarList = document.querySelectorAll('.nav-bar-list');
+const footer = document.getElementById('footer');
 
 homeBtn.addEventListener('click', () => {
   navBar.style.display = 'flex';
@@ -13,6 +14,7 @@ homeBtn.addEventListener('click', () => {
   closeBtn.style.display = 'block';
   main.style.display = 'none';
   intro.style.display = 'none';
+  footer.style.display = 'none';
   navBarBlock.style.height = '100vh';
 });
 
@@ -22,6 +24,7 @@ function closeMenu() {
   closeBtn.style.display = 'none';
   main.style.display = 'block';
   intro.style.display = 'block';
+  footer.style.display = 'block';
   navBarBlock.style.height = 'auto';
 }
 
