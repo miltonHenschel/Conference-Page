@@ -12,15 +12,18 @@
   --black: #272a31;
   --white: #d3d3d3;
   --red: #ec5242;
+
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100vw;
   font-size: 100%;
   font-family: "Lato", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 nav#mobile-menu {
@@ -65,10 +68,14 @@ a:focus {
   text-decoration: none;
 }
 
-nav#nav-bar div {
+nav#nav-bar-div {
   width: fit-content;
   flex-direction: column;
   gap: 1rem;
+  display: none;
+}
+
+div#nav-bar-logo {
   display: none;
 }
 

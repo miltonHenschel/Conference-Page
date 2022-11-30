@@ -1,1 +1,62 @@
-/* @media only screen and (min-width: 768px) */
+@media only screen and (min-width: 768px) {
+  nav#social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: var(--black);
+    color: var(--white);
+    position: fixed;
+    width: 100vw;
+    height: auto;
+  }
+
+  nav#nav-bar {
+    position: fixed;
+    top: 3.5rem;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    position: initial;
+  }
+
+  div#nav-bar-logo {
+    display: block;
+  }
+
+  /* PROBLEM MIGHT START HERE */
+  ul#nav-bar-ul {
+    display: block;
+  }
+
+  nav#nav-bar-div {
+    display: inline;
+  }
+
+  img#home-btn {
+    display: none;
+  }
+
+  img#close-btn {
+    display: none;
+  }
+
+  nav#social-media ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 5rem;
+  }
+
+  article#intro {
+    padding: 8rem 1rem 4rem;
+  }
+}
