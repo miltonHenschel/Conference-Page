@@ -301,6 +301,7 @@ button#more-program-mobile {
   font-size: 1rem;
   font-weight: 900;
   border: 1px solid var(--red);
+  margin-bottom: 2rem;
 }
 
 .speaker-section-div {
@@ -336,4 +337,8 @@ button#more-speakers {
 
 .show {
   display: block;
+}
+
+.speaker-section-div:nth-child(n+3) {
+  display: none;
 }

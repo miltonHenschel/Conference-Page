@@ -1,0 +1,68 @@
+ul#nav-bar-ul:hover li {
+  opacity: 0.2;
+  filter: blur(2px);
+}
+
+ul#nav-bar-ul li:hover {
+  opacity: 1;
+  filter: blur(0);
+}
+
+nav#social-media ul:hover li {
+  opacity: 0.2;
+  filter: blur(2px);
+}
+
+nav#social-media ul li:hover {
+  opacity: 1;
+  filter: blur(0);
+}
+
+.main-program-div:hover {
+  border: 1px solid var(--white);
+}
+
+section.main-program-section:hover .main-program-div {
+  opacity: 0.2;
+  filter: blur(2px);
+}
+
+section.main-program-section .main-program-div:hover {
+  opacity: 1;
+  filter: blur(0);
+}
+
+.speaker-section-div:hover {
+  transform: scale(1.1);
+}
+
+section.speaker-section:hover .speaker-section-div {
+  opacity: 0.2;
+  filter: blur(2px);
+}
+
+section.speaker-section .speaker-section-div:hover {
+  opacity: 1;
+  filter: blur(0);
+}
+
+button#more-speakers:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+button#more-program-mobile:hover {
+  background-color: var(--white);
+  color: var(--red);
+  border-color: var(--white);
+}
+
+a#more-program-desktop:hover {
+  color: var(--red);
+  border-bottom: 1px solid var(--red);
+}
+
+div#nav-bar-logo img:hover {
+  transform: rotate(-360deg);
+  transition-duration: 2s;
+}
