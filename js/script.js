@@ -32,3 +32,5 @@ closeBtn.addEventListener('click', closeMenu);
 navBarList.forEach((e) => {
   e.addEventListener('click', closeMenu);
 });
+
+/* DYNAMIC SPEAKERS SECTION */
