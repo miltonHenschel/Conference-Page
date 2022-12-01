@@ -8,14 +8,19 @@
     position: fixed;
     width: 100vw;
     height: auto;
+    align-items: center;
+    align-content: center;
   }
 
   nav#nav-bar {
     position: fixed;
     top: 3.5rem;
-    background-color: var(--white);
+    background-color: #fff;
     display: flex;
     justify-content: space-around;
+    height: auto;
+    align-items: center;
+    padding: 1rem 0;
   }
 
   nav#nav-bar ul {
@@ -57,7 +62,7 @@
   }
 
   article#intro {
-    margin: 5rem auto auto 8rem;
+    margin: 10rem auto 3rem 13rem;
     width: 50%;
   }
 
@@ -71,7 +76,7 @@
   .main-program-div {
     display: grid;
     grid-template-columns: 10rem;
-    grid-template-rows: 25% 10% auto;
+    grid-template-rows: 35% 10% auto;
     justify-items: center;
   }
 
@@ -94,7 +99,7 @@
   }
 
   article#featured-speakers {
-    padding: 0 5rem 2rem;
+    padding: 0 4rem 2rem;
   }
 
   article#featured-speakers .red-line {
@@ -179,4 +184,12 @@
   }
 
   div#all-rights-logo { width: 50%; }
+}
+
+.speaker-img {
+  background-image: url("../images/speakers/damier.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 7rem 0 0 1rem;
 }
