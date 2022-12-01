@@ -62,6 +62,7 @@ nav#nav-bar ul {
 a,
 button {
   all: unset;
+  cursor: pointer;
 }
 
 nav#nav-bar-div {
