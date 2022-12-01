@@ -80,6 +80,14 @@ nav#nav-bar {
   height: auto;
 }
 
+li.nav-bar-list:nth-child(1) {
+  color: var(--red);
+}
+
+li.nav-bar-list:nth-child(2) {
+  color: #000;
+}
+
 header#header {
   display: flex;
   flex-direction: column;
@@ -179,13 +187,14 @@ html {
 }
 
 article#main-program {
-  background-color: #272a31;
   color: #d3d3d3;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  background-image: url("../images/others/pattern.jpg");
+  background-repeat: repeat;
 }
 
 article#featured-speakers {

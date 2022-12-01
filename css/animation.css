@@ -61,8 +61,3 @@ a#more-program-desktop:hover {
   color: var(--red);
   border-bottom: 1px solid var(--red);
 }
-
-div#nav-bar-logo img:hover {
-  transform: rotate(-360deg);
-  transition-duration: 2s;
-}

@@ -39,6 +39,14 @@ navBarList.forEach((e) => {
   e.addEventListener('click', closeMenu);
 });
 
+/* CREATE SPEAKERS ARRAY OF OBJECTS  */
+// const speakers = [
+//   {
+//     name:
+
+//   }
+// ];
+
 /* DYNAMIC SPEAKERS SECTION */
 article.id = 'featured-speakers';
 article.innerHTML = `

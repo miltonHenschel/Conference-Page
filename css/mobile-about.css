@@ -1,3 +1,11 @@
+li.nav-bar-list:nth-child(1) {
+  color: #000;
+}
+
+li.nav-bar-list:nth-child(2) {
+  color: var(--red);
+}
+
 article.center-text {
   text-align: center;
 }
