@@ -40,12 +40,6 @@ navBarList.forEach((e) => {
 });
 
 /* CREATE SPEAKERS ARRAY OF OBJECTS  */
-// const speakers = [
-//   {
-//     name:
-
-//   }
-// ];
 
 /* DYNAMIC SPEAKERS SECTION */
 article.id = 'featured-speakers';
