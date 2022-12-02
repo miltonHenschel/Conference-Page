@@ -33,6 +33,16 @@
 # 📖 Conference Page <a name="about-project"></a>
 
 **First Capstone Project: Conference Page** is an online website for a conference event.
+This is my first capstone project at Microverse. This project is an online website for a conference. It is to replicate Cindy Shin's <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">original design</a>.
+
+<div>
+<img src="https://user-images.githubusercontent.com/87370519/205265562-1778e9b7-2cb7-4df2-afe2-69bb8538e0d3.jpg" width=100 height=100 />
+<img src="https://user-images.githubusercontent.com/87370519/205265637-201a234f-12f0-4582-ae14-e09855a2068e.jpg" width=100 height=100 />
+<img src="https://user-images.githubusercontent.com/87370519/205265744-3b6d149f-ea26-4f4e-a446-fa85e95f9456.jpg" width=100 height=100 />
+<img src="https://user-images.githubusercontent.com/87370519/205265677-ed2b7c87-b91b-45a4-9897-8554281c9c67.jpg" width=100 height=100 />
+<img src="https://user-images.githubusercontent.com/87370519/205265759-85345ab8-857c-4ab3-915a-a6e61c7e3b42.jpg" width=100 height=100 />
+<img src="https://user-images.githubusercontent.com/87370519/205265769-876efd04-83bb-4f75-850c-fc48570f4f26.jpg" width=100 height=100 />
+</div>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,10 +79,9 @@
 <!-- > Describe between 1-3 key features of the application.-->
 - **Mobile version**
 - **Desktop version**
-- **Application deploy**
 - **Mobile menu**
-- **Evaluate accessibility**
-- **Load data dynamically**
+- **Dynamic speakers section**
+- **More/Less speaker buttons**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,6 +90,7 @@
 
 <!-- > Add a link to your deployed project.-->
 - [Live Demo Link](https://miltonhenschel.github.io/Conference-Page/)
+- [Video presentation](https://www.loom.com/share/ea7190471a844c69bfe0f44099ecec13)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,9 +186,10 @@ Example:
 
 <!-- > Describe 1 - 3 features you will add to the project.-->
 - [ ] **Light/Dark mode**
-- [ ] **Scroll to the top and bottom buttons**
-- [ ] **Use previous and next buttons to navigate projects**
+- [ ] **Scroll to top and bottom**
+- [ ] **Popup menu for more speaker information**
 - [ ] **Contact form**
+- [ ] **Create Join, Sponsor and CC Campaign pages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,7 +212,8 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 <!-- > Give credit to everyone who inspired your codebase.-->
-![](https://img.shields.io/badge/Microverse-blueviolet)
+- [ ] **![](https://img.shields.io/badge/Microverse-blueviolet)**
+- [ ] **[Cindy Shin](https://www.behance.net/adagio07), the author of [the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
