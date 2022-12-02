@@ -184,12 +184,24 @@
   }
 
   div#all-rights-logo { width: 50%; }
-}
 
-.speaker-img {
-  background-image: url("../images/speakers/damier.jpg");
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: left;
-  padding: 7rem 0 0 1rem;
+  .speaker-img {
+    padding: 7rem 0 0 1rem;
+  }
+
+  article#intro h1 {
+    font-size: 3rem;
+  }
+
+  article#intro h2 {
+    font-size: 4rem;
+  }
+
+  article#intro h3 {
+    margin: -2rem 9rem -1rem 0;
+  }
+
+  article#intro h4 {
+    font-size: 2rem;
+  }
 }

@@ -84,10 +84,9 @@ nav#nav-bar {
 header#header {
   display: flex;
   flex-direction: column;
-  background-repeat: no-repeat;
-  background-image: url("../images/others/background.jpg");
-  background-size: cover;
   width: 100%;
+  background: linear-gradient(0deg, rgba(235, 235, 235, 0.93), rgba(235, 235, 235, 0.93)), url("../images/others/background.jpg") no-repeat;
+  background-size: cover;
 }
 
 div#logo {
@@ -101,14 +100,14 @@ article.center-text {
 article#intro h1 {
   color: #ec5242;
   margin-bottom: 0;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
 article#intro h2 {
   color: #ec5242;
   margin-top: 0;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 900;
 }
 
@@ -144,7 +143,7 @@ article#intro h3 {
   border: solid #fff;
   background-color: #d3d3d347;
   padding: 1rem;
-  margin: -2rem 9rem -1rem 0;
+  margin: -0.25rem auto;
   font-weight: 300;
 }
 
@@ -170,7 +169,7 @@ article#intro p {
 }
 
 article#intro h4 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 900;
   margin-bottom: 0;
   color: #272a31c9;
@@ -315,7 +314,7 @@ button#more-program-mobile {
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: left;
-  padding: 10rem 0 6rem 1rem;
+  padding: 5rem 0 0 1rem;
 }
 
 .speaker-details {

@@ -91,3 +91,7 @@ div#all-rights-logo { width: 50%; }
 section#partner .red-line {
   width: 5vw;
 }
+
+article#intro .red-line {
+  display: none;
+}

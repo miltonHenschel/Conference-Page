@@ -31,4 +31,32 @@
     padding: 2rem 10rem;
     margin: auto;
   }
+
+  article#intro {
+    margin: 14rem 14rem 7rem;
+    width: auto;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  article#intro h4 {
+    display: none;
+  }
+
+  article#intro .red-line {
+    display: flex;
+    margin: -3rem 0 1rem;
+  }
+
+  article#intro h1 {
+    display: none;
+  }
+
+  article#intro h3 {
+    margin: 0;
+  }
+
+  article#intro h2 {
+    font-size: 4rem;
+  }
 }
