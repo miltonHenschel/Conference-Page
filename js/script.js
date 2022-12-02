@@ -66,6 +66,7 @@ const speakers = [
   {
     image: './images/speakers/speaker_04.png',
     fullName: 'Julia Reda',
+    title: 'Representative of the Young Pirates of Europe',
     bio: 'European integration and youth participation in politics and democracy through online are key concerns, according to a report that could potentially impact changes to the European Union copyright laws in July.',
   },
   {
