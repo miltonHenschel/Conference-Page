@@ -41,6 +41,10 @@ img {
   max-width: 100%;
 }
 
+img#more-speakers-img {
+  width: 5vw;
+}
+
 nav#social-media {
   display: none;
 }
@@ -339,8 +343,4 @@ button#more-speakers {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-}
-
-.speaker-section-div:nth-child(n+3) {
-  display: none;
 }

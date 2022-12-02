@@ -91,7 +91,7 @@ article.innerHTML = `
 
   <section class="speaker-section"></section>
 
-  <button id="more-speakers">MORE&nbsp;&nbsp;<img src="./images/nav/arrow_down.png" alt="down icon"></button>
+  <button id="more-speakers">MORE&nbsp;&nbsp;<img id="more-speakers-img" src="./images/nav/red_arrow_down.svg" alt="down icon"></button>
 `;
 const nodes = document.getElementsByTagName('article');
 const lastNode = document.getElementsByTagName('article')[nodes.length - 1];
@@ -99,11 +99,10 @@ lastNode.parentNode.insertBefore(article, lastNode.nextSibling);
 
 /* ADD CONTENT TO SPEAKERS SECTION */
 const dynamicSpeakerSection = document.querySelector('.speaker-section');
-document.addEventListener('DOMContentLoaded', () => {
+const createSpeakers = (nbr) => {
   let featuredSpeakersContent = '';
-  for (let i = 0; i < speakers.length; i += 1) {
+  for (let i = 0; i < nbr; i += 1) { // speakers.length
     featuredSpeakersContent += `
-      <section class="speaker-section">
         <div class="speaker-section-div">
           <div class="speaker-img">
             <div id="speaker-section-img-container">
@@ -117,11 +116,37 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>${speakers[i].bio}</p>
           </div>
         </div>
-      </section>
     `;
   }
   dynamicSpeakerSection.innerHTML = featuredSpeakersContent;
-  return dynamicSpeakerSection;
+};
+
+/* MORE SPEAKERS BUTTON */
+const moreBtn = document.getElementById('more-speakers');
+
+const showSpeakers = () => {
+  if (window.innerWidth < 768) {
+    createSpeakers(2);
+  } else {
+    createSpeakers(speakers.length);
+  }
+};
+
+window.addEventListener('load', () => {
+  showSpeakers();
 });
 
-/* MORE BUTTON */
+window.addEventListener('resize', () => {
+  showSpeakers();
+});
+
+moreBtn.addEventListener('click', () => {
+  const speakersItems = document.querySelectorAll('.speaker-section-div');
+  if (speakersItems.length === speakers.length) {
+    createSpeakers(2);
+    moreBtn.innerHTML = 'MORE&nbsp;&nbsp;<img id="more-speakers-img" src="./images/nav/red_arrow_down.svg" alt="down icon">';
+  } else {
+    createSpeakers(speakers.length);
+    moreBtn.innerHTML = 'LESS&nbsp;&nbsp;<img id="more-speakers-img" src="./images/nav/red_arrow_up.svg" alt="up icon">';
+  }
+});
