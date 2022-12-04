@@ -6,7 +6,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Home | Conference Page</title>
    <link rel="stylesheet" href="css/mobile.css">
+   <link rel="stylesheet" href="css/mobile-about.css">
    <link rel="stylesheet" href="css/desktop.css">
+   <link rel="stylesheet" href="css/desktop-about.css">
    <link rel="stylesheet" href="css/animation.css">
 </head>
 
@@ -28,11 +30,10 @@
       </nav>
 
       <nav id="nav-bar" aria-label="nav bar">
-         <div id="nav-bar-logo"><a href="index.html"><img src="./images/logo/logo.png" alt="cc logo"></a></div>
+         <div id="nav-bar-logo"><a href="index.html"><img src="./images/logo/logo.png" alt="cc logo" /></a></div>
          <div id="nav-bar-div">
             <ul id="nav-bar-ul">
-               <li class="nav-bar-list"><a href="about.html">About</a></li>
-               <li class="nav-bar-list"><a href="#main-program">Program</a></li>
+               <li class="nav-bar-list"><a href="index.html">Home</a></li>
                <li class="nav-bar-list"><a href="#">Join</a></li>
                <li class="nav-bar-list"><a href="#">Sponsor</a></li>
                <li class="nav-bar-list"><a href="#">CC Campaign</a></li>
@@ -40,60 +41,45 @@
          </div>
       </nav>
 
-      <article id="intro">
+      <article id="intro" class="center-text">
          <h1>"Hello, Sharing World!"</h1>
 
          <h2>CREATIVE COMMONS GLOBAL SUMMIT 2022</h2>
 
-         <h3>A joyful festival where people from over 80 countries who create positive change gather and share their thoughts will be held in Korea in October.</h3>
+         <div class="red-line"><img src="./images/main-program/red-line.jpg" alt="red line" /></div>
 
-         <h4>20022.10.14 (Wed) ~ 17 (Sat)</h4>
+         <h3>In particular, at this year's CC Summit, we are looking forward to the participation of various organizations and individual participants who want to join CC in activities to spread the values of sharing, free culture, and open knowledge. We hope that it will be an opportunity for supporters of free software, Wikipedia activists, open knowledge foundation activists, art galleries, libraries, museums, archives, governments, foundations, lawyers, social activists, and others working in the field of open content and open knowledge to come together and share their concerns to create a richer and more dynamic sharing ecosystem.</h3>
 
-         <p>@National Museum of Korea, Art Center Navi, etc.</p>
+         <h4>October 14 ~ 17, 2015 (Wed ~ Sat)<br />See you at the CC Global Summit!</h4>
+
+         <p>Do you have any other questions about CC Global Summit 2015? Please feel free to contact us via email<br /><a href="mailto:ccsummit2015@cckorea.org">ccsummit2015@cckorea.org</a></p>
       </article>
    </header>
 
    <main id="main">
-      <article id="main-program">
-         <h2>Main Programs</h2>
-
-         <div class="red-line"><img src="./images/main-program/red-line.jpg" alt="red line"></div>
-
-         <section class="main-program-section">
-            <div class="main-program-div">
-               <div class="main-program-img"><img src="./images/main-program/conference.png" alt="conference icon"></div>
-               <h3>Lecture</h3>
-               <p>Listen to speakers from around the world and learn about the latest world trends.</p>
-            </div>
-
-            <div class="main-program-div">
-               <div class="main-program-img"><img src="./images/main-program/cc-exhibition.png" alt="cc exhibition icon"></div>
-               <h3>CC Exhibition</h3>
-               <p>He developed SDN, the first Internet protocol network in Asia.</p>
-            </div>
-
-            <div class="main-program-div">
-               <div class="main-program-img"><img src="./images/main-program/forum.png" alt="forum icon"></div>
-               <h3>Forum</h3>
-               <p>Take the time to share your thoughts and opinions with experts on each topic covered.</p>
-            </div>
-
-            <div class="main-program-div">
-               <div class="main-program-img"><img src="./images/main-program/workshop.png" alt="workshop icon"></div>
-               <h3>Workshop</h3>
-               <p>You can not only view creations using open source, but also create them yourself.</p>
-            </div>
-
-            <div class="main-program-div">
-               <div class="main-program-img"><img src="./images/main-program/cc-party.png" alt="cc party icon"></div>
-               <h3>CC Ignite</h3>
-               <p>Create opportunities to freely network with CC personalities from around the world.</p>
-            </div>
+      <article class="past-program">
+         <section class="past-program-intro">
+            <h2>Creative Commons Global Summit 2015 Logo</h2>
+            <div class="red-line"><img src="./images/main-program/red-line.jpg" alt="red line" /></div>
+            <p>The logo contest, which ran from June 8 to July 7, was decided after online voting and jury evaluation. After consultation with the winning designer, the logo of CC Global Summit 2015, which has been optimized for use on the website and promotional materials, is as follows.</p>
          </section>
 
-         <a id="more-program-desktop" href="#">SEE THE WHOLE PROGRAM</a>
+         <section class="past-program-detail">
+            <div id="past-program-logo"><img src="./images/logo/gs-logo.png" alt="cc global summit logo" /></div>
+         </section>
+      </article>
 
-         <button id="more-program-mobile">Join CC Global Summit 2022</button>
+      <article class="past-program">
+         <section class="past-program-intro">
+            <h2>See the past CC Global Summits</h2>
+            <div class="red-line"><img src="./images/main-program/red-line.jpg" alt="red line" /></div>
+            <p>See some of the recent global summits in Buenos Aires, Argentina, and Warsaw, Poland.</p>
+         </section>
+
+         <section class="past-program-detail">
+            <div class="past-program-img"><img src="./images/others/about_2011.png" alt="2011 cc global summit" /></div>
+            <div class="past-program-img"><img src="./images/others/about_2013.png" alt="2013 cc global summit" /></div>
+         </section>
       </article>
    </main>
 
