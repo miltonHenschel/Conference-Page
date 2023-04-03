@@ -32,13 +32,9 @@
 <!-- PROJECT DESCRIPTION -->
 # 📖 Conference Page <a name="about-project"></a>
 
-**First Capstone Project: Conference Page** is an online website for a conference event.
-This is my first capstone project at Microverse. This project is an online website for a conference. It is to replicate Cindy Shin's <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">original design</a>.
+**Conference Page** is an online website for a conference event. It is to replicate Cindy Shin's <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">original design</a>.
 
-![Q](https://user-images.githubusercontent.com/87370519/215631472-0dcb4da3-f748-4cdf-9e88-89a7763c2fe7.png)
-![Q2](https://user-images.githubusercontent.com/87370519/215631569-2d8657d6-e29c-4381-bc4d-2a1ed758a17a.png)
-![Q3](https://user-images.githubusercontent.com/87370519/215631609-d020732f-23ac-43f1-b37e-b0051c2f433b.png)
-![Q4](https://user-images.githubusercontent.com/87370519/215631641-6419e4da-a4d3-4219-90f8-6e0e53c6317d.png)
+![conference-page-all-devices-black](https://user-images.githubusercontent.com/87370519/229636005-d83bb636-3296-4301-b418-d458508a9849.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
